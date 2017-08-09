@@ -40,6 +40,8 @@ public class RoutineTemplaAdapter extends ArrayAdapter<Exercise> {
         TextView sets = (TextView) listItemView.findViewById(R.id.sets);
         sets.setText("Working sets: " + currentExercise.getSet().toString());
 
+        listItemView.setTag(currentExercise);
+
         return listItemView;
 
 
