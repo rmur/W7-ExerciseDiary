@@ -12,12 +12,12 @@ public class RoutineTemplate {
     public RoutineTemplate() {
         list = new ArrayList<Exercise>();
         list.add(new Exercise(1, "Bench Press", 4));
-        list.add(new Exercise(2, "45D Inclined Bench Press", 4));
+        list.add(new Exercise(2, "Inclined Bench Press", 4));
         list.add(new Exercise(3, "Crossover", 4));
         list.add(new Exercise(4, "Dips", 4));
     }
 
-    public ArrayList getSize(){
+    public ArrayList getList(){
 
         return (new ArrayList<Exercise>(list));
     }

@@ -5,9 +5,9 @@ package code_clan.exercisediary;
  */
 
 public class Exercise {
-    private int number;
+    private Integer number;
     private String name;
-    private int sets;
+    private Integer sets;
 
     public Exercise(int number, String name, int sets){
         this.number = number;
@@ -16,4 +16,15 @@ public class Exercise {
 
     }
 
+    public Integer getExerciseNumber() {
+        return this.number;
+    }
+
+    public String getExercise() {
+        return this.name;
+    }
+
+    public Integer getSet() {
+        return this.sets;
+    }
 }

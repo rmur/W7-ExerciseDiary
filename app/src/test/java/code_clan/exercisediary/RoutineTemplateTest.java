@@ -17,6 +17,6 @@ public class RoutineTemplateTest {
     @Test
     public void testRoutineTemplate(){
         routineTemplate = new RoutineTemplate();
-        assertEquals(4, routineTemplate.getSize().size());
+        assertEquals(4, routineTemplate.getList().size());
     }
 }
